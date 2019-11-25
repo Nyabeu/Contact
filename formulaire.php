@@ -12,7 +12,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta name="author" content=" Oriane NJILIE">
+	<meta name="description" content="Formulaire de contact">
+	<link rel="shortcut icon" href="photos/iconOriane.ico" type="image/x-icon">
+    <title>FORMULAIRE DE CONTACT</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -48,7 +51,7 @@
                     <div class="col-lg-3"><input type="radio" class="col-lg-2" name="php" value="n" <?= $form->checkRadio('php','n');?>>
                         <label class="control-label col-lg-1">Non</label></div>
                     <div class="col-lg-5"><input type="radio" class="col-lg-1" name="php" value="p" <?= $form->checkRadio('php','p');?>>
-                        <label class="control-label col-lg-4">Peut-être </label></div>
+                        <label class="control-label col-lg-7">Peut-être </label></div>
 
                 </div>
             </div><br>

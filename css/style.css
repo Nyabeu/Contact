@@ -80,7 +80,7 @@ body{
     margin: 25px auto;
     font-size: 3rem;
     font-style: italic;
-    color: white;
+    color: blue;
     text-shadow: 5px 10px 5px red;
 }
 .btn-danger{
